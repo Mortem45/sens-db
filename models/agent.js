@@ -1,7 +1,7 @@
 'use strict'
 
-import Sequelize from 'sequelize'
-import setupDatabase from '../lib/db'
+const Sequelize = require('sequelize')
+const setupDatabase = require('../lib/db')
 
 module.exports = function setupAgentModel (config) {
   const sequelize = setupDatabase(config)
