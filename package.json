@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard",
     "setup": "DEBUG=sens:* node setup.js",
-    "test": "DEBUG=sens:* ava tests/* --verbose"
+    "test": "DEBUG=sens:* nyc --reporter=lcov ava tests/* --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/mortem45/sens-sb#readme",
   "devDependencies": {
     "ava": "^2.1.0",
+    "nyc": "^14.1.1",
     "sqlite3": "^4.0.8",
     "standard": "^12.0.1"
   },
