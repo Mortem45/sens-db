@@ -1,0 +1,22 @@
+{
+  "name": "sens-db",
+  "version": "1.0.0",
+  "description": "Simple plataforma de IoT - Modulo DB",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortem45/sens-sb.git"
+  },
+  "author": "@Mortem45 (ste45_007@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mortem45/sens-sb/issues"
+  },
+  "homepage": "https://github.com/mortem45/sens-sb#readme",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
