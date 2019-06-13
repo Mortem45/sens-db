@@ -86,3 +86,9 @@ test.serial('Agent#createOrUpdate - exists', async t => {
 
   t.deepEqual(agent, single, 'Agent should be the same')
 })
+
+test.todo('Agent#findByUuid')
+test.todo('Agent#findAll')
+test.todo('Agent#findConnected')
+test.todo('Agent#findByUsername')
+test.todo('Agent#createOrUpdate - new')
