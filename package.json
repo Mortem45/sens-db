@@ -10,12 +10,12 @@
   },
   "ava": {
     "files": [
-        "test/**-tests.js"
-      ],
-      "require": [
-        "@babel/register"
-      ]
-    },
+      "test/**-tests.js"
+    ],
+    "require": [
+      "@babel/register"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mortem45/sens-sb.git"
